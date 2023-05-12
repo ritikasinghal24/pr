@@ -29,3 +29,11 @@ document.querySelector('#user-icon').onclick=()=>{
     menu.classList.remove('move');
 
 }
+
+// On click on menu links removed menu
+window.onscroll=() =>{
+
+    navbar.classList.remove('active');
+    menu.classList.remove('active');
+}
+
